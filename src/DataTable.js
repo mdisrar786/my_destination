@@ -57,7 +57,7 @@ const DataTable = () => {
     setData([...data, newRow]);
     handleClose();
   };
-
+//delete 
   const handleDeleteRow = (id) => {
     const updatedData = data.filter((item) => item.id !== id);
     setData(updatedData);
